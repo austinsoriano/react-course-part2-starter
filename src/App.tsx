@@ -1,7 +1,8 @@
-import './App.css';
+import "./App.css";
+import LoginStatus from "./state-management/LoginStatus";
 
 function App() {
-  return <h1>React Starter Project</h1>;
+  return <LoginStatus />;
 }
 
 export default App;
